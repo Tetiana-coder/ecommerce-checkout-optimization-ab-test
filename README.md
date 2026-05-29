@@ -32,10 +32,12 @@ A strategic overview for stakeholders evaluating experiment outcomes, risk facto
 
 ## 2. Conversion Funnel Optimization (Experiment 1 Deep Dive)
 
-### 🏆 Headline: Experiment 1 establishes a new checkout baseline with a +12.5% uplift in payment velocity
-Analysis of the conversion funnel confirmed that the variant implemented in Experiment 1 out-performed the Control group across consecutive downstream events:
-* **Primary Metric Impact:** The phase transitioning from product selection to `add_payment_info` secured a definitive **+12.5% conversion spike**.
-* **Downstream Halo Effect:** The optimization successfully carried forward, generating a stable **+6% to +7% systematic expansion** across checkout start and account creation milestones.
+### 🏆 Headline: Experiment 1 establishes a new checkout baseline, driven by a +12.5% surge in payment completion
+
+Analysis of the user journey confirmed that the variant implemented in Experiment 1 out-performed the Control group by steadily building momentum through the upper steps of the funnel and delivering maximum impact at the finish line:
+
+* **Upstream Momentum:** The optimization generated a stable **+6% to +7% systematic expansion** early in the process, specifically during the `Account Creation` and `Checkout Start` milestones.
+* **Primary Metric Impact:** This increased efficiency successfully carried through to the bottom of the funnel, securing a definitive **+12.5% conversion spike** at the final `Payment Info` phase.
 
 <br>
 
