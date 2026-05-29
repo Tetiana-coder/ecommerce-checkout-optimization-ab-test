@@ -52,18 +52,19 @@ Analysis of the user journey confirmed that the variant implemented in Experimen
 ## 3. Statistical Rigor & Hypothesis Testing
 
 ### 📊 Headline: Mathematical validation confirms Experiment 1 stability while flagging Experiments 3 & 4 as revenue risks
-To safeguard against Type I errors (false positives), every experiment underwent strict statistical validation using Z-scores and p-value calculations:
-* **Programmatic Validation:** Experiment 1 achieved a p-value well below the $\alpha = 0.05$ threshold (`Significant = TRUE`), confirming that the +12.5% uplift was driven by the product modification rather than random variance.
-* **Financial Risk Mitigation:** Experiments 3 and 4 demonstrated distinct, statistically sound negative shifts (down to **-3.3%**). Moving forward with these variants would introduce direct transaction volume degradation and financial losses.
+
+To safeguard against **Type I errors (false positives)**, every experiment underwent strict statistical validation using Z-scores and p-value calculations:
+*   **Programmatic Validation:** Experiment 1 achieved a p-value well below the `alpha = 0.05` threshold (`Significant = TRUE`), confirming that the **+12.5% uplift** was driven by the product modification rather than random variance.
+*   **Financial Risk Mitigation:** Experiments 3 and 4 demonstrated distinct, statistically sound negative shifts (down to **-3.3%**). Moving forward with these variants would introduce direct transaction volume degradation and financial losses.
 
 <br>
 
+<!-- 🖼️ AUTOMATIC DISPLAY: STATISTICAL TEST RESULTS -->
 <p align="center">
   <img src="visualisations/3_statistical_significance_table.png" alt="Statistical Significance Matrix" width="100%">
   <br>
   <i>Figure 3: Hypothesis Testing Matrix – Breakdown of calculated Z-scores, P-values, and statistical significance flags.</i>
 </p>
-
 ---
 
 ## 4. Audience Segmentation: Device & Geographic Anomalies
